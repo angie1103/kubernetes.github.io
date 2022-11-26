@@ -19,7 +19,7 @@
     height: 100%;
     max-width: 1400px;
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
     margin: 0 auto;
     padding: 10px;
@@ -55,6 +55,7 @@ font-family: 'Playfair Display', serif;
     display: flex;
     gap: 25px;
     font-size: 25px;
+    position: unset;
 }
 
 .nav ul li{
@@ -115,6 +116,8 @@ font-family: 'Titillium Web', sans-serif;
 .container-sign:hover::after{
     top: 0;
 }
+
+
 
 
 /* .container-sign::after{
