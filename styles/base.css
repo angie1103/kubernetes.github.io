@@ -8,8 +8,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Playfair+Display:wght@600&family=Pridi&family=Sansita:wght@700&family=Titillium+Web&display=swap');
 /* Varibles */
 :root{
-    --ColorTNT: #d94d21;
-    --ColorBtnSign: #ba201c;
+    --ColorTNT: #ff9777;
+    --ColorBtnSign: #ffa600;
 }
 
 *{
