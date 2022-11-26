@@ -1,0 +1,126 @@
+
+/* .container main{} */
+
+.slider{
+    margin-top: 110px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper-wrapper{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.slider__item img:not(.social__networks img){
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.slider__info{
+    position: absolute;
+    top: 10vh;
+    left: 15vw;
+    color: #fff;
+    font-size: 3em;
+    line-height: 70px;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Pridi', serif;
+font-family: 'Sansita', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+p{ font-weight: 900;}
+
+.slider__info::before{
+    content: "";
+    position: absolute;
+    height: 140px;
+    width: 10px;
+    background-color: #fff;
+    top: 0;
+    left: -30px;
+}
+
+.social__networks{
+    position: absolute;
+    top:50px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social__networks svg{
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+    transition: all .5s ease;
+}
+
+
+.social__networks svg:hover{
+    transform: scale(1.4);
+    transition: all .5s ease;
+    fill: var(--ColorBtnSign);
+    cursor: pointer;
+    width: 30px;
+}
+
+.btn{
+    position: absolute;
+    transition: all .5s ease;
+    right: 30px;
+    top: calc(50% - 20px);
+    width: 30px;
+    border: none;
+    font-size: 2em;
+    font-weight: 900;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    z-index: 200;
+}
+.previous{
+    left: 30px;
+}
+.btn:hover{
+    color: var(--ColorBtnSign);
+    transition: all .5s ease;
+}
+
+.indicators{
+    position: absolute;
+}
+
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.swiper-pagination span{
+    height: 8px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.swiper-pagination span:hover{
+    background-color: var(--ColorBtnSign);
+    opacity: .5;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--ColorBtnSign) !important
+}
+
+

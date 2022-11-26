@@ -1,0 +1,135 @@
+#home{
+    top: 0;
+    height: 120px;
+    box-shadow: 0 0 3px 0 #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    transition: top .5s ease-in-out;
+    overflow: hidden;
+}
+
+.header__small{
+    height: 80px !important;
+}
+
+.container__header{
+    height: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-logo{
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+}
+
+.title-logo{
+    text-align: center;
+    font-size: 2rem;
+    z-index: 20;
+    position: relative;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'Playfair Display', serif;
+    color: var(--ColorTNT);
+}
+
+.title-none{
+    display: none;
+}
+
+.container-logo img{
+    width: 70%;
+    margin-top: -25px;
+    z-index: 10;
+}
+
+.nav ul{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+.nav ul li a:hover{
+    display: inline-block;
+    color: var(--ColorTNT);
+    transform: translateY(-2px);
+}
+
+.sing-in{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comforter Brush', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Pridi', serif;
+font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    z-index: 10;
+}
+
+
+.container-sign{
+    text-align: center;
+    background-color: var(--ColorBtnSign);
+    padding: 7px 19px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.container-sign::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: var(--ColorTNT);
+    position: absolute;
+    border: 1px solid var(--ColorBtnSign);
+    top: -100%;
+    left: 0;
+    transition: top .5s ease-in;
+}
+
+.container-sign:hover::after{
+    top: 0;
+}
+
+
+/* .container-sign::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgb(84, 149, 64);
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: -60px;
+	transition: top .5s ease;
+}
+
+.container-sign:hover::after{
+	top: 0;
+} */
+
