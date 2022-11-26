@@ -54,6 +54,7 @@ font-family: 'Playfair Display', serif;
     display: flex;
     gap: 25px;
     font-size: 25px;
+    position: unset;
 }
 
 .nav ul li{
@@ -114,6 +115,8 @@ font-family: 'Titillium Web', sans-serif;
 .container-sign:hover::after{
     top: 0;
 }
+
+
 
 
 /* .container-sign::after{

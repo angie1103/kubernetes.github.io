@@ -7,6 +7,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Playfair+Display:wght@600&family=Pridi&family=Sansita:wght@700&family=Titillium+Web&display=swap');
 /* Varibles */
+
+body{
+    background-color:white;
+}
+
 :root{
     --ColorTNT: #ff9777;
     --ColorBtnSign: #ffa600;
@@ -29,3 +34,4 @@ a{
 .hamburger{
     display: none;
 }
+
