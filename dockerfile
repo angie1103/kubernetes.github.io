@@ -1,6 +1,3 @@
-FROM nginx:1.19-alpine
+FROM nginx:alpine
 
-ADD index.html /usr/share/nginx/html
-ADD styles /usr/share/nginx/html
-ADD resources /usr/share/nginx/html
-ADD code /usr/share/nginx/html
+COPY . /usr/share/nginx/html
